@@ -61,7 +61,7 @@ if (isset($_POST['submit'])){
                    <div class="form-group">
                     <label for="exampleInputEmail1">Write Here <span style="color:red">*</span></label>
                        <textarea class="form-control" required="required" name="tv_price" id="tv_price">
-                        <?php echo $tv_price; ?>
+                        <?php echo $cable_prices; ?>
                       </textarea>
                     </div>
                                 
